@@ -38,17 +38,19 @@ const Projects = () => {
           />
           <div className="flex flex-col gap-4 p-6 bg-[#181c4a] rounded-b-3xl w-full">
             <h3 className="font-semibold text-2xl">Naruto Universe</h3>
-            <div className="flex items-center gap-2">
-              <p className="px-2 py-1 border-blue-900 border-solid border-2 rounded-lg cursor-default">
-                Next.js
-              </p>
-              <p className="px-2 py-1 border-blue-900 border-solid border-2 rounded-lg cursor-default">
-                TypeScript
-              </p>
-              <p className="px-2 py-1 border-blue-900 border-solid border-2 rounded-lg cursor-default">
-                Tailwind
-              </p>
-              <p className="px-2 py-1 border-blue-900 border-solid border-2 rounded-lg cursor-default">
+            <div className="flex flex-col lg:flex-row gap-2">
+              <div className="flex gap-2">
+                <p className="px-2 py-1 border-blue-900 border-solid border-2 rounded-lg cursor-default">
+                  Next.js
+                </p>
+                <p className="px-2 py-1 border-blue-900 border-solid border-2 rounded-lg cursor-default">
+                  TypeScript
+                </p>
+                <p className="px-2 py-1 border-blue-900 border-solid border-2 rounded-lg cursor-default">
+                  Tailwind
+                </p>
+              </div>
+              <p className="px-2 py-1 border-blue-900 border-solid border-2 rounded-lg cursor-default self-start">
                 Strapi
               </p>
             </div>
