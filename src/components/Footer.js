@@ -14,7 +14,7 @@ const Footer = () => {
           <FaLinkedin />
         </a>
         <a
-          href="https://www.linkedin.com/in/lewisdls/"
+          href="https://www.github.com/lewisdls/"
           target="_blank"
           rel="noreferrer"
           className="text-3xl"

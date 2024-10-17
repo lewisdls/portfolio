@@ -22,7 +22,7 @@ const Projects = () => {
         </h2>
       </motion.div>
       <motion.div
-        className="grid auto-fill gap-8 text-left"
+        className="flex flex-col lg:flex-row gap-8 text-left"
         initial={{ opacity: 0, translateY: 100 }}
         whileInView={{ opacity: 1, translateY: 0 }}
         transition={{
@@ -30,15 +30,15 @@ const Projects = () => {
           delay: 0.3,
         }}
       >
-        <div className="w-full">
+        <div className="w-fit">
           <img
-            className="w-full h-[300px] object-cover object-top rounded-t-3xl transition-all duration-300 group-hover:opacity-70"
+            className="w-full object-cover object-top rounded-t-3xl"
             src="/naruto.png"
             alt=""
           />
-          <div className="flex flex-col gap-4 p-6 bg-[#181c4a] rounded-b-3xl">
+          <div className="flex flex-col gap-4 p-6 bg-[#181c4a] rounded-b-3xl w-full">
             <h3 className="font-semibold text-2xl">Naruto Universe</h3>
-            <div className="flex items-center justify-between">
+            <div className="flex items-center gap-6">
               <p className="px-2 py-1 border-blue-900 border-solid border-2 rounded-lg cursor-default">
                 Next.js
               </p>
@@ -63,20 +63,23 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="w-full">
+        <div className="w-fit">
           <img
-            className="w-full h-[300px] object-cover object-top rounded-t-3xl transition-all duration-300 group-hover:opacity-70"
+            className="object-cover rounded-t-3xl"
             src="/salon-aura.jpeg"
             alt=""
           />
           <div className="flex flex-col gap-4 p-6 bg-[#181c4a] rounded-b-3xl">
             <h3 className="font-semibold text-2xl">Salon Aura</h3>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-6">
               <p className="px-2 py-1 border-blue-900 border-solid border-2 rounded-lg cursor-default">
-                React JS
+                Next.js
               </p>
               <p className="px-2 py-1 border-blue-900 border-solid border-2 rounded-lg cursor-default">
                 Tailwind
+              </p>
+              <p className="px-2 py-1 border-blue-900 border-solid border-2 rounded-lg cursor-default">
+                Strapi
               </p>
             </div>
             <a
