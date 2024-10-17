@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="text-white py-28 px-10 lg:px-44 grid lg:grid-cols-2 items-center gap-12"
+      className="text-white py-28 px-10 lg:px-44 grid lg:grid-cols-2 items-center gap-12 overflow-hidden"
     >
       <motion.div
         className="h-[400px]"
