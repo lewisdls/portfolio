@@ -30,7 +30,7 @@ const Projects = () => {
           delay: 0.3,
         }}
       >
-        <div className="w-fit">
+        <div className="w-full">
           <img
             className="w-full object-cover object-top rounded-t-3xl"
             src="/naruto.png"
@@ -63,7 +63,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="w-fit">
+        <div className="w-full">
           <img
             className="object-cover rounded-t-3xl"
             src="/salon-aura.jpeg"
