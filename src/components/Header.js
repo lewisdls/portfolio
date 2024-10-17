@@ -58,14 +58,6 @@ const Header = () => {
             <FaLinkedin className="text-3xl" />
           </a>
           <a
-            href="https://www.github.com/lewisdls"
-            target="_blank"
-            rel="noreferrer"
-            className="hidden lg:block"
-          >
-            <FaLinkedin className="text-3xl" />
-          </a>
-          <a
             href="https://www.linkedin.com/in/lewisdls/"
             target="_blank"
             rel="noreferrer"
