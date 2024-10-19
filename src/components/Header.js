@@ -53,7 +53,6 @@ const Header = () => {
             href="https://www.linkedin.com/in/lewisdls/"
             target="_blank"
             rel="noreferrer"
-            className="hidden lg:block"
           >
             <FaLinkedin className="text-3xl" />
           </a>
@@ -61,7 +60,6 @@ const Header = () => {
             href="https://www.github.com/lewisdls/"
             target="_blank"
             rel="noreferrer"
-            className="hidden lg:block"
           >
             <FaGithub className="text-3xl" />
           </a>
