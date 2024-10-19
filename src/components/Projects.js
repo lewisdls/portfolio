@@ -55,7 +55,7 @@ const Projects = () => {
               </p>
             </div>
             <a
-              href="https://salon-aura.netlify.app"
+              href="https://naruto-universe.netlify.app"
               target="_blank"
               rel="noreferrer"
             >
