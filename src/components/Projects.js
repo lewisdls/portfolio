@@ -32,7 +32,42 @@ const Projects = () => {
       >
         <div className="w-full">
           <img
-            className="w-full object-cover object-top rounded-t-3xl"
+            className="w-full object-cover object-top rounded-t-3xl lg:h-[200px]"
+            src="/finance.png"
+            alt=""
+          />
+          <div className="flex flex-col gap-4 p-6 bg-[#181c4a] rounded-b-3xl w-full">
+            <h3 className="font-semibold text-2xl">Dosantos Finance App</h3>
+            <div className="flex flex-col lg:flex-row gap-2">
+              <div className="flex gap-2">
+                <p className="px-2 py-1 border-blue-900 border-solid border-2 rounded-lg cursor-default">
+                  Next.js
+                </p>
+                <p className="px-2 py-1 border-blue-900 border-solid border-2 rounded-lg cursor-default">
+                  TypeScript
+                </p>
+                <p className="px-2 py-1 border-blue-900 border-solid border-2 rounded-lg cursor-default">
+                  Tailwind
+                </p>
+              </div>
+              <p className="px-2 py-1 border-blue-900 border-solid border-2 rounded-lg cursor-default self-start">
+                MongoDB
+              </p>
+            </div>
+            <a
+              href="https://dosantos-finance-app.netlify.app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="flex items-center gap-2 font-semibold text-md bg-white text-black w-max mt-4 px-2 py-1 rounded-xl border-b-blue-900 border-b-4">
+                Live demo <FiExternalLink />
+              </button>
+            </a>
+          </div>
+        </div>
+        <div className="w-full">
+          <img
+            className="w-full object-cover object-top rounded-t-3xl lg:h-[200px]"
             src="/naruto.png"
             alt=""
           />
@@ -67,7 +102,7 @@ const Projects = () => {
         </div>
         <div className="w-full">
           <img
-            className="object-cover rounded-t-3xl"
+            className="object-cover rounded-t-3xl lg:h-[200px]"
             src="/salon-aura.jpeg"
             alt=""
           />

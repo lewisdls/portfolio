@@ -35,6 +35,7 @@ const Header = () => {
               <img src="https://skillicons.dev/icons?i=react" alt="" />
               <img src="https://skillicons.dev/icons?i=nodejs" alt="" />
               <img src="https://skillicons.dev/icons?i=nextjs" alt="" />
+              <img src="https://skillicons.dev/icons?i=mongodb" alt="" />
             </div>
             <div className="flex flex-col lg:flex-row gap-4 hover:-translate-y-2 transition-all duration-300">
               <img src="https://skillicons.dev/icons?i=tailwind" alt="" />
