@@ -67,7 +67,7 @@ const Projects = () => {
         </div>
         <div className="w-full">
           <img
-            className="object-cover rounded-t-3xl lg:h-[200px]"
+            className="w-full object-cover rounded-t-3xl lg:h-[200px]"
             src="/salon-aura.jpeg"
             alt=""
           />
