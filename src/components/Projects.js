@@ -90,7 +90,7 @@ const Projects = () => {
               </p>
             </div>
             <a
-              href="https://dosantos-finance-app.netlify.app"
+              href="https://dosantos-finance.vercel.app"
               target="_blank"
               rel="noreferrer"
             >
