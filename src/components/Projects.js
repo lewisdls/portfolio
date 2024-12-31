@@ -117,7 +117,7 @@ const Projects = () => {
               </p>
             </div>
             <a
-              href="https://salon-aura.netlify.app"
+              href="https://salon-aura.vercel.app"
               target="_blank"
               rel="noreferrer"
             >
