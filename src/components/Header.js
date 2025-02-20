@@ -17,8 +17,9 @@ const Header = () => {
         </h1>
         <p className="font-light text-xl leading-relaxed lg:w-[60%]">
           Web developer passionate about creating dynamic and functional
-          applications with experience in front-end development using React JS
-          and Tailwind CSS.
+          applications with experience in both front-end and back-end
+          development using frameworks and libraries such as Next.js and
+          TailwindCSS.
         </p>
         <div className="hidden lg:flex items-center gap-12 mt-6">
           <h2 className="font-semibold text-3xl tracking-wide">Tech Stack:</h2>

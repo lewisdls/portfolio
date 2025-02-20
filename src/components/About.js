@@ -32,15 +32,16 @@ const About = () => {
       >
         <h4 className="text-medium-yellow font-bold text-base">ABOUT ME</h4>
         <h2 className="font-bold text-4xl leading-snug">
-          Dedicated Front-End Developer based in DR
+          Dedicated Full Stack Developer based in DR
         </h2>
         <p className="leading-relaxed font-light text-lg">
-          As a Junior Front-End Developer, I possess an impressive arsenal of
-          skills in HTML, CSS, JavaScript, React JS, Tailwind and SCSS. I excel
-          in designing and maintaining responsive websites that offer a smooth
-          user experience. My expertise lies in crafting dynamic, engaging
-          interfaces through writing clean and optimized code and utilizing
-          cutting-edge development tools and techniques.
+          As a web developer, I possess an impressive arsenal of skills in
+          user-interface building, database management and server-side
+          functionality. I excel in designing and maintaining responsive
+          websites that offer a smooth user experience. My expertise lies in
+          crafting dynamic, engaging interfaces through writing clean and
+          optimized code and utilizing cutting-edge development tools and
+          techniques.
         </p>
       </motion.div>
     </div>
