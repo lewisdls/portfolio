@@ -115,6 +115,9 @@ const Projects = () => {
               <p className="px-2 py-1 border-blue-900 border-solid border-2 rounded-lg cursor-default">
                 Tailwind
               </p>
+              <p className="px-2 py-1 border-blue-900 border-solid border-2 rounded-lg cursor-default">
+                PostgreSQL
+              </p>
             </div>
             <a
               href="https://salon-aura.vercel.app"
