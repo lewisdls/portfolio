@@ -16,7 +16,7 @@ const Contact = () => {
         }}
       >
         <h4 className="text-yellow-400 font-bold text-base">CONTACT</h4>
-        <h2 className="font-bold text-4xl leading-snug w-2/3 md:w-auto">
+        <h2 className="font-bold text-4xl leading-snug w-[90%] md:w-auto">
           Need any help? Please, do tell.
         </h2>
       </motion.div>
