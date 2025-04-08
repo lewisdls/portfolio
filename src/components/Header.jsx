@@ -12,8 +12,8 @@ const Header = () => {
           duration: 0.8,
         }}
       >
-        <h1 className="font-bold text-6xl leading-tight">
-          Hello, I'm <br /> Lewis Nomar.
+        <h1 className="font-bold text-5xl md:text-6xl leading-tight">
+          Hello, I'm <br /> Lewis Nomar
         </h1>
         <p className="font-light text-xl leading-relaxed lg:w-[60%]">
           Web developer passionate about creating dynamic and functional
