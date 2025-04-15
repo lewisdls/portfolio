@@ -35,7 +35,7 @@ const Projects = () => {
             src="/store.png"
             alt=""
           />
-          <div className="flex flex-col gap-4 p-6 bg-[#181c4a] rounded-b-3xl w-full">
+          <div className="flex flex-col gap-4 p-6 bg-[#091447] rounded-b-3xl w-full">
             <h3 className="font-semibold text-2xl">Phoenix Store</h3>
             <div className="flex flex-col lg:flex-row gap-2">
               <div className="flex gap-2 flex-wrap">
@@ -71,7 +71,7 @@ const Projects = () => {
             src="/finance.png"
             alt=""
           />
-          <div className="flex flex-col gap-4 p-6 bg-[#181c4a] rounded-b-3xl w-full">
+          <div className="flex flex-col gap-4 p-6 bg-[#091447] rounded-b-3xl w-full">
             <h3 className="font-semibold text-2xl">DoSantos Finance App</h3>
             <div className="flex flex-col lg:flex-row gap-2">
               <div className="flex gap-2 flex-wrap">
@@ -107,7 +107,7 @@ const Projects = () => {
             src="/salon-aura.jpeg"
             alt=""
           />
-          <div className="flex flex-col gap-4 p-6 bg-[#181c4a] rounded-b-3xl w-full">
+          <div className="flex flex-col gap-4 p-6 bg-[#091447] rounded-b-3xl w-full">
             <h3 className="font-semibold text-2xl">Salon Aura</h3>
             <div className="flex flex-col lg:flex-row gap-2">
               <div className="flex gap-2 flex-wrap">
@@ -140,7 +140,7 @@ const Projects = () => {
             src="/fitness.png"
             alt=""
           />
-          <div className="flex flex-col gap-4 p-6 bg-[#181c4a] rounded-b-3xl w-full">
+          <div className="flex flex-col gap-4 p-6 bg-[#091447] rounded-b-3xl w-full">
             <h3 className="font-semibold text-2xl">DoSantos Fitness Gym</h3>
             <div className="flex flex-col lg:flex-row gap-2">
               <div className="flex gap-2 flex-wrap">
