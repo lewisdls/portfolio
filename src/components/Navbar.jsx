@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`fixed text-white p-4 md:px-12 md:py-8 w-full z-10 ${navbar ? "bg-[#181C4A]" : "bg-transparent"}`}
+      className={`fixed text-white p-4 md:px-12 md:py-8 w-full z-10 ${navbar ? "bg-gradient-to-r from-[#0a0126] to-[#01152f]" : "bg-transparent"}`}
     >
       <div
         className={`hidden lg:flex items-center justify-end gap-8 text-lg font-medium tracking-wide`}
@@ -34,7 +34,7 @@ const Navbar = () => {
         {open ? <AiOutlineClose /> : <AiOutlineMenu />}
       </div>
       <div
-        className={`absolute lg:hidden left-0 right-0 h-screen bg-[#181C4A] flex flex-col items-center justify-center gap-8 font-medium text-lg transition-all duration-700 ${open ? "translate-x-0" : "translate-x-full"}`}
+        className={`absolute lg:hidden left-0 right-0 h-[calc(100vh-50px)] bg-gradient-to-r from-[#0a0126] to-[#01152f] flex flex-col items-center justify-center gap-8 font-medium text-lg transition-all duration-700 ${open ? "translate-x-0" : "translate-x-full"}`}
       >
         <a
           className={`text-center hover:text-white transform transition-all cursor-pointer`}

@@ -8,7 +8,7 @@ import Skills from "./components/Skills";
 
 function App() {
   return (
-    <div className="bg-[url('/h.jpg')] bg-cover">
+    <div className="bg-gradient-to-r from-[#11023e] to-[#021c3e] bg-cover">
       <Navbar />
       <Header />
       <Skills />
