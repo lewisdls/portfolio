@@ -22,11 +22,11 @@ const Skills = () => {
     >
       <h2 className="font-semibold text-4xl text-white">Tech Stack</h2>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 items-center justify-center gap-8 mt-16 px-10 lg:px-44">
+      <div className="grid grid-cols-3 md:grid-cols-4 items-center justify-center gap-8 mt-16 px-10 lg:px-44">
         {skills.map((skill, index) => (
           <motion.div
             key={index}
-            className="flex items-center gap-3"
+            className="flex items-center gap-4 justify-self-center md:justify-self-auto"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{
@@ -35,7 +35,7 @@ const Skills = () => {
             }}
           >
             <img className="w-16" src={skill.icon} alt={skill.name} />
-            <span className="text-white text-2xl font-semibold">
+            <span className="text-white text-2xl font-semibold hidden md:block">
               {skill.name}
             </span>
           </motion.div>
