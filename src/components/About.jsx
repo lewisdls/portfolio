@@ -33,7 +33,7 @@ const About = () => {
         <h2 className="font-bold text-4xl leading-snug">
           Dedicated Full Stack Developer based in DR
         </h2>
-        <p className="leading-relaxed font-light text-lg">
+        <p className="leading-[36px] font-light text-lg">
           As a web developer, I possess an impressive arsenal of skills in
           user-interface building, database management and server-side
           functionality. I excel in designing and maintaining responsive
