@@ -12,10 +12,10 @@ const Header = () => {
           duration: 0.8,
         }}
       >
-        <h1 className="font-bold text-5xl md:text-6xl leading-tight">
+        <h1 className="font-bold text-5xl md:text-6xl 2xl:text-[90px] leading-tight 2xl:leading-[7rem]">
           Hello, I'm <br /> Lewis Nomar
         </h1>
-        <p className="font-light text-xl leading-[36px] lg:w-4/5">
+        <p className="font-light text-xl 2xl:text-2xl leading-[36px] 2xl:leading-[46px] lg:w-4/5">
           Web developer passionate about creating dynamic and functional
           applications with experience in both front-end and back-end
           development using frameworks and libraries such as Next.js and
@@ -23,11 +23,11 @@ const Header = () => {
         </p>
         <div className="mt-6 flex items-center justify-center lg:justify-start gap-4">
           <a
-            className="hidden lg:block font-medium"
+            className="hidden lg:block"
             href="/CV.pdf"
             target="_blank"
           >
-            <button className="bg-yellow-400 text-black font-semibold self-center lg:self-start px-6 py-2 rounded-full cursor-pointer">
+            <button className="bg-yellow-400 text-black font-bold self-center lg:self-start px-6 py-2 rounded-full cursor-pointer 2xl:text-lg">
               DOWNLOAD CV
             </button>
           </a>
@@ -36,14 +36,14 @@ const Header = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <FaLinkedin className="text-3xl" />
+            <FaLinkedin className="text-3xl 2xl:text-4xl" />
           </a>
           <a
             href="https://www.github.com/lewisdls/"
             target="_blank"
             rel="noreferrer"
           >
-            <FaGithub className="text-3xl" />
+            <FaGithub className="text-3xl 2xl:text-4xl" />
           </a>
         </div>
       </motion.div>

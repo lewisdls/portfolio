@@ -11,6 +11,8 @@ const skills = [
   { name: "Tailwind", icon: "https://skillicons.dev/icons?i=tailwind" },
   { name: "MongoDB", icon: "https://skillicons.dev/icons?i=mongodb" },
   { name: "PostgreSQL", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png" },
+  { name: "Sanity", icon: "https://yt3.googleusercontent.com/NAUB0vdxKU7a0n2L863_S3cn35TLev08dKY7P8NqTZn4EH3hDXh-v1oPWPDgasSRUokqlAtg=s900-c-k-c0x00ffffff-no-rj" },
+  { name: "Strapi", icon: "https://media2.dev.to/dynamic/image/width=320,height=320,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F763%2F988af53b-5d7e-435a-98eb-dd4aff5299d2.png" },
 ];
 
 const Skills = () => {
@@ -21,9 +23,9 @@ const Skills = () => {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
     >
-      <h2 className="font-semibold text-4xl text-white">Tech Stack</h2>
+      <h2 className="font-semibold text-4xl 2xl:text-5xl text-white">Tech Stack</h2>
 
-      <div className="grid grid-cols-3 md:grid-cols-4 items-center justify-center gap-8 mt-16 px-10 lg:px-44">
+      <div className="grid grid-cols-3 md:grid-cols-4 items-center justify-center gap-8 mt-20 px-10 lg:px-44">
         {skills.map((skill, index) => (
           <motion.div
             key={index}
@@ -35,7 +37,7 @@ const Skills = () => {
               delay: index * 0.1,
             }}
           >
-            <img className="w-16" src={skill.icon} alt={skill.name} />
+            <img className="w-16 rounded-2xl" src={skill.icon} alt={skill.name} />
             <span className="text-white text-2xl font-semibold hidden md:block">
               {skill.name}
             </span>

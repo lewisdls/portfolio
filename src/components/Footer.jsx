@@ -8,7 +8,7 @@ const Footer = () => {
         <a
           href="https://www.linkedin.com/in/lewisdls/"
           target="_blank"
-          className="text-3xl"
+          className="text-3xl 2xl:text-4xl"
           rel="noreferrer"
         >
           <FaLinkedin />
@@ -17,7 +17,7 @@ const Footer = () => {
           href="https://www.github.com/lewisdls/"
           target="_blank"
           rel="noreferrer"
-          className="text-3xl"
+          className="text-3xl 2xl:text-4xl"
         >
           <FaGithub />
         </a>
