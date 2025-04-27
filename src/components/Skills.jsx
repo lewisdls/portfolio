@@ -9,7 +9,8 @@ const skills = [
   { name: "Node.js", icon: "https://skillicons.dev/icons?i=nodejs" },
   { name: "Next.js", icon: "https://skillicons.dev/icons?i=nextjs" },
   { name: "Tailwind", icon: "https://skillicons.dev/icons?i=tailwind" },
-  { name: "Python", icon: "https://skillicons.dev/icons?i=python" },
+  { name: "MongoDB", icon: "https://skillicons.dev/icons?i=mongodb" },
+  { name: "PostgreSQL", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png" },
 ];
 
 const Skills = () => {
