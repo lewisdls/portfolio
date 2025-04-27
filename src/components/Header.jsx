@@ -48,6 +48,7 @@ const Header = () => {
         </div>
       </motion.div>
       <motion.div
+        className="hidden lg:block w-2/5"
         initial={{ opacity: 0, translateX: 100 }}
         whileInView={{ opacity: 1, translateX: 0 }}
         transition={{
@@ -55,7 +56,7 @@ const Header = () => {
         }}
       >
         <img
-          className="hidden lg:block rounded-full object-cover h-[300px] w-[380px]"
+          className="rounded-full object-cover"
           src="/lewis.jpg"
           alt="Lewis Nomar"
         />

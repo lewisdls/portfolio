@@ -19,7 +19,7 @@ const Skills = () => {
       className="text-center pb-20"
       initial={{ opacity: 0, y: 100 }}
       whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 1 }}
+      transition={{ duration: 0.8 }}
     >
       <h2 className="font-semibold text-4xl text-white">Tech Stack</h2>
 

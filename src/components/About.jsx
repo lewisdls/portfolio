@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="text-white pt-1 md:pt-[92px] pb-28 px-10 lg:px-44 grid lg:grid-cols-2 items-center gap-12 overflow-hidden"
+      className="text-white pt-10 md:pt-[92px] pb-28 px-10 lg:px-44 grid lg:grid-cols-2 items-center gap-12 overflow-hidden"
     >
       <motion.div
         className="h-[400px]"
@@ -31,16 +31,12 @@ const About = () => {
       >
         <h4 className="text-yellow-400 font-bold text-base">ABOUT ME</h4>
         <h2 className="font-bold text-4xl leading-snug">
-          Dedicated Full Stack Developer based in DR
+          Passionate Web Developer from the Dominican Republic
         </h2>
         <p className="leading-[36px] font-light text-lg">
-          As a web developer, I possess an impressive arsenal of skills in
-          user-interface building, database management and server-side
-          functionality. I excel in designing and maintaining responsive
-          websites that offer a smooth user experience. My expertise lies in
-          crafting dynamic, engaging interfaces through writing clean and
-          optimized code and utilizing cutting-edge development tools and
-          techniques.
+          Currently wrapping up my degree in Computer Systems Engineering 🤩. I build responsive websites with clean code, smooth user experiences,
+          and solid backend functionality. I focus on creating dynamic, engaging
+          sites using modern tools and best practices.
         </p>
       </motion.div>
     </div>
