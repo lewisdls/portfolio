@@ -31,12 +31,15 @@ const About = () => {
       >
         <h4 className="text-yellow-400 font-bold text-base">ABOUT ME</h4>
         <h2 className="font-bold text-4xl leading-snug">
-          Passionate Web Developer from the Dominican Republic
+          Dedicated Web Developer from DR
         </h2>
         <p className="leading-[36px] font-light text-lg">
-          Currently wrapping up my degree in Computer Systems Engineering 🤩. I build responsive websites with clean code, smooth user experiences,
-          and solid backend functionality. I focus on creating dynamic, engaging
-          sites using modern tools and best practices.
+          I'm a Computer Systems Engineer with a passion for building
+          responsive, user-friendly websites. My work focuses on delivering
+          clean code, smooth user experiences, and reliable backend
+          functionality. I enjoy creating dynamic and engaging web solutions
+          using modern tools, frameworks, and best practices to bring ideas to
+          life.
         </p>
       </motion.div>
     </div>
