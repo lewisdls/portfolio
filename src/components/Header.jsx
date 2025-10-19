@@ -31,6 +31,7 @@ const Header = () => {
             href="https://www.linkedin.com/in/lewisdls/"
             target="_blank"
             rel="noreferrer"
+            className="transition-all duration-300 hover:text-white hover:scale-110 hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.4)]"
           >
             <FaLinkedin className="text-3xl 2xl:text-4xl" />
           </a>
@@ -38,6 +39,7 @@ const Header = () => {
             href="https://www.github.com/lewisdls/"
             target="_blank"
             rel="noreferrer"
+            className="transition-all duration-300 hover:text-white hover:scale-110 hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.4)]"
           >
             <FaGithub className="text-3xl 2xl:text-4xl" />
           </a>

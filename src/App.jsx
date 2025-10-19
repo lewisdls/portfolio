@@ -9,7 +9,9 @@ import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
-    <div className="bg-gradient-to-r from-[#11023e] to-[#021c3e] bg-cover">
+    <div className="min-h-screen bg-slate-950 text-white">
+      {/* Soft ambient background */}
+      <div className="fixed inset-0 pointer-events-none bg-[radial-gradient(ellipse_at_top,rgba(255,255,255,0.07),transparent_55%),radial-gradient(ellipse_at_bottom,rgba(124,58,237,0.18),transparent_60%)]" />
       <Navbar />
       <Header />
       <Skills />
